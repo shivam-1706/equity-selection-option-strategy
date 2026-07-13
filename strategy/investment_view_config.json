@@ -1,0 +1,41 @@
+{
+  "investment_thesis": {
+    "underlying_ticker": "ITC.NS",
+    "valuation_summary": {
+      "current_spot_price": 281.80,
+      "blended_fair_value": 305.44,
+      "market_discount_pct": 7.74
+    },
+    "directional_bias": "STRUCTURAL_LONG_TERM_BULLISH",
+    "tactical_headwind": "Short-to-medium-term macroeconomic market volatility and defensive sector rotation."
+  },
+  "options_strategy_scenarios": {
+    "scenario_a_moderate_bullishness": {
+      "regime_definition": "I expect the underlying stock to rise moderately towards its fair value, but near-term upside remains capped by technical overhead resistance near the 300 level. Lower premium expenditure is required.",
+      "strategy_choice": "BULL_CALL_SPREAD",
+      "implementation_logic": {
+        "long_leg_strike": 280,
+        "short_leg_strike": 300,
+        "expiration_cycle_days": 30
+      },
+      "structural_justification": "By purchasing an ATM call and selling a further OTM call, the short leg directly subsidizes the initial debit cost of the long leg. This structures a defined maximum loss capped at the net premium paid and limits negative portfolio time-decay (Theta) drag.",
+      "rejected_alternatives": {
+        "naked_long_call": "Rejected due to high unhedged premium cost exposure and rapid tail-risk loss if the stock experiences a sideways consolidation phase.",
+        "covered_call": "Rejected because it completely limits structural upside flexibility if the asset breaks out sharply, and provides virtually zero true downside capital preservation."
+      }
+    },
+    "scenario_b_strong_bullishness": {
+      "regime_definition": "I have very high long-term fundamental conviction and intend to hold the underlying common stock to collect a 5.19% dividend yield, but require absolute tail-risk capital insurance against sharp market pullbacks.",
+      "strategy_choice": "PROTECTIVE_PUT",
+      "implementation_logic": {
+        "underlying_allocation_pct": 85.00,
+        "insurance_strike": 265,
+        "expiration_cycle_days": 30
+      },
+      "structural_justification": "Holding the underlying stock retains full participation in upside rallies and locks in recurring dividend cash flows, while the long OTM put acts as a formal insurance contract to cap maximum absolute downside risk at a predefined floor.",
+      "rejected_alternatives": {
+        "naked_long_call": "Rejected because a long option contract does not capture corporate dividend distributions, resulting in substantial yield sacrifice over a multi-month timeline."
+      }
+    }
+  }
+}
