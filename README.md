@@ -25,7 +25,6 @@ The core objective of this project is to model, implement, and evaluate systemat
 │   └── strategic_comparison.py             <- Phase 10: Comparison analytics engine
 │
 └── src/
-    ├── fetch_universe.py                   <- Phase 1: Real-time yfinance extraction pipeline
     ├── financial_model.py                  <- Phase 4: Financial forecast data model
     ├── valuation_model.py                  <- Phase 5: Two-stage DCF equation pipeline
     └── backtest_engine.py                  <- Phase 8 & 9: Backtest risk performance engine
