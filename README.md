@@ -93,7 +93,7 @@ The quantitative engine filtered large-cap Indian corporations constituting the 
 
 $$\text{PV of Explicit Cash Flows} = \sum_{t=1}^{5} \frac{FCF_t}{(1 + \text{WACC})^t} = \text{₹53,924 Crore}$$
 
-$$\text{Terminal Value (TV)} = \frac{FCF_5 \times (1 + g_n)}{\text{WACC} - g_n} = \text{₹16,880 \times 1.055}{0.1125 - 0.055} = \text{₹309,711 Crore}$$
+$$\text{Terminal Value (TV)} = \frac{FCF_5 \times (1 + g_n)}{\text{WACC} - g_n} = \text{₹16,880  1.055}{0.1125 - 0.055} = \text{₹309,711 Crore}$$
 
 $$\text{PV of Terminal Value} = \frac{\text{₹309,711}}{(1 + 0.1125)^5} = \text{₹181,732 Crore}$$
 
