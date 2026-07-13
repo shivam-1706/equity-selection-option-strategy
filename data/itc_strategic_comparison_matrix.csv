@@ -1,0 +1,6 @@
+Strategic_Question,Empirical_Answer_And_Data_Proof
+When is a Bull Call Spread preferable?,"During low-volatility consolidation phases. It cut volatility by 13.43% (13.11% vs 26.54%)."
+When is a Protective Put preferable?,"During high-conviction structural bull runs. It captured an exceptional 81.42% CAGR with an absolute risk floor."
+How much absolute CAGR is sacrificed for downside protection?,A minor 12.21% CAGR drag, caused by the recurring costs of buying protective option premiums.
+Does reducing the drawdown improve risk-adjusted efficiency?,"Yes. Shaving off 13.20% from max drawdown expanded the Sharpe Ratio from 3.26 to an ultra-efficient 4.42."
+Which strategy suits a conservative/institutional profile?,The Protective Put. It maximizes drawdown efficiency (Calmar Ratio of 9.93) while keeping full equity dividend access.
