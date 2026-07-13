@@ -1,0 +1,7 @@
+Ticker,Company_Name,Sector,Market_Cap_Cr,Revenue_Cr,EBITDA_Cr,PAT_Cr,ROE_Pct,ROCE_Pct,Debt_Equity,PE_Multiple,EV_EBITDA,Free_Cash_Flow_Cr,Dividend_Yield_Pct
+ITC.NS,ITC Limited,Consumer Goods,350263,70250,24426,20422,29.30,38.90,0.00,17.15,14.33,12180,5.19
+TCS.NS,Tata Consultancy Services,Information Technology,789267,255324,67500,45900,51.80,63.00,0.00,28.40,19.20,38140,2.93
+HINDUNILVR.NS,Hindustan Unilever,Consumer Goods,571420,60580,14610,10280,29.10,38.20,0.03,55.50,39.10,6120,1.95
+INFY.NS,Infosys Limited,Information Technology,654100,153670,36450,26240,31.80,39.40,0.06,24.90,17.20,20100,2.44
+TITAN.NS,Titan Company,Consumer Goods,298450,47460,5430,3510,30.20,24.80,0.64,85.00,54.90,1430,0.92
+RELIANCE.NS,Reliance Industries,Energy & Conglomerate,1746200,964693,165444,81309,9.00,10.00,0.41,21.47,10.55,18820,0.85
