@@ -1,0 +1,3 @@
+Strategy_Label,Underlying_Spot,Option_Strikes_Used,Executed_Lots,Premium_Capital_Outlay,Slippage_Friction_Loss,Exchange_Fees,Portfolio_Cash_Reserve
+Bull_Call_Spread,281.80,280CE_300CE,10,103200.00,2400.00,61.92,9896800.00
+Protective_Put,281.80,265PE,21,109200.00,5040.00,65.52,425124.00
