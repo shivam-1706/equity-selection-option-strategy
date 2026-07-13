@@ -1,0 +1,7 @@
+Performance_Metric,Buy_And_Hold_Equity,Bull_Call_Spread,Protective_Put
+Compounded CAGR (%),93.63%,34.80%,81.42%
+Annualised Volatility (%),26.54%,13.11%,16.82%
+Maximum Peak Drawdown (%),-21.40%,-6.50%,-8.20%
+Sharpe Ratio (Risk-Adjusted),3.26,2.11,4.42
+Calmar Ratio (Drawdown Efficiency),4.38,5.35,9.93
+Final Simulated Capital Value (INR),₹19363207.55,₹13480244.11,₹18142390.00
